@@ -1,9 +1,9 @@
 #include <ctest.h>
 
 #include <fstream>
+#include <gtk/gtk.h>
 #include <iostream>
 #include <string>
-#include <thirdparty/gtk-3.0/gtk/gtk.h>
 
 #include <libsheet/functions.h>
 
