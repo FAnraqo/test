@@ -5,7 +5,7 @@ TEST_NAME = testing
 CC = g++
 
 CFLAGS = -Wall -Werror
-CPPFLAGS = -I src -I thirdparty 
+CPPFLAGS = -I src -I thirdparty/atk -I thirdparty/cairo -I thirdparty/gdk-pixbuf-2.0/gdk-pixbuf -I thirdparty/glib-2.0/gio -I thirdparty/glib-2.0/glib/deprecated -I thirdparty/glib-2.0/gobject -I thirdparty/gtk-3.0/gdk/broadway -I thirdparty/gtk-3.0/gdk/deprecated -I thirdparty/gtk-3.0/gdk/wayland -I thirdparty/gtk-3.0/gdk/x11 -I thirdparty/gtk-3.0/gtk/a11y -I thirdparty/gtk-3.0/gtk/deprecated -I thirdparty/gtk-3.0/unix-print/gtk -I thirdparty/harfbuzz -I thirdparty/include -I thirdparty/pango
 CFLAGS_TEST = -I src -I thirdparty
 PACKAGE = `pkg-config gtk+-3.0 --cflags`
 LIBS = `pkg-config gtk+-3.0 --libs`
