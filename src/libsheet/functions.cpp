@@ -1,8 +1,8 @@
 #include "functions.h"
 #include <fstream>
-#include <thirdparty/gtk-3.0/gtk/gtk.h>
 #include <iostream>
 #include <string>
+#include <thirdparty/gtk-3.0/gtk/gtk.h>
 
 std::string File_name = "tasks.txt";
 GtkWidget* task_list_box;

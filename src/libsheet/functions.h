@@ -1,7 +1,7 @@
 #pragma once
 
-#include <thirdparty/gtk-3.0/gtk/gtk.h>
 #include <string>
+#include <thirdparty/gtk-3.0/gtk/gtk.h>
 
 int checking_for_errors(std::string str);
 
