@@ -1,6 +1,6 @@
 #pragma once
 
-#include <gtk/gtk.h>
+#include <thirdparty/gtk-3.0/gtk/gtk.h>
 #include <string>
 
 int checking_for_errors(std::string str);

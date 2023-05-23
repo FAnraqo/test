@@ -1,5 +1,5 @@
 #include <fstream>
-#include <gtk/gtk.h>
+#include <thirdparty/gtk-3.0/gtk/gtk.h>
 #include <iostream>
 #include <libsheet/functions.cpp>
 #include <libsheet/functions.h>
